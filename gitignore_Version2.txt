@@ -1,0 +1,38 @@
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Environments
+.env
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Test / build outputs
+.coverage
+dist/
+build/
+
+# Jupyter
+output-*.*
+
+# Model / large binary files (if you keep small dataset files in the repo remove or edit this)
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# Do NOT ignore the data/ folder by default; remove below if you want to keep datasets in-repo
+# data/
